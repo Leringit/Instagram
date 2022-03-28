@@ -13,15 +13,18 @@ export const Container = styled.article`
   margin-bottom: 24px;
 `;
 
+export const SpacedRow = styled(DefaultRow)`
+  justify-content: space-between;
+  width: 100%;
+`;
+
+export const FirstRow = styled(SpacedRow)`
+  padding: 14px 0 14px 16px;
+`;
+
 export const PostImage = styled(DefaultImage)`
   width: 100%;
   height: auto;
-`;
-
-export const SpacedRow = styled(DefaultRow)`
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px;
 `;
 
 export const Picture = styled(DefaultImage)`
@@ -31,7 +34,41 @@ export const Picture = styled(DefaultImage)`
   margin-right: 14px;
 `;
 
-export const Icon = styled(DefaultImage)`
+export const Icon = styled(DefaultImage)``;
+
+export const Dots = styled(DotsSvg)`
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+`;
+
+export const Heart = styled(HeartSvg)`
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+`;
+
+export const Balloon = styled(BalloonSvg)`
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+`;
+
+export const Send = styled(SendSvg)`
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+`;
+
+export const Save = styled(SaveSvg)`
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+`;
+
+export const Description = styled.p`
+  font-size: 14px;
+  margin: 4px;
 `;
 
 export const Name = styled.span`
@@ -39,49 +76,10 @@ export const Name = styled.span`
   font-weight: bold;
 `;
 
-export const Dots = styled(DotsSvg)`
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-`;
-
-export const Heart = styled(HeartSvg)`
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-`;
-
-export const Balloon = styled(BalloonSvg)`
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-`;
-
-export const Send = styled(SendSvg)`
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-`;
-
-export const Save = styled(SaveSvg)`
-  width: 24px;
-  height: 24px;
-  padding: 8px;
-`;
-
-export const Description = styled.span`
-  font-size: 12px;
-  margin: 5px;
-`;
-
 export const PastTime = styled.span`
   color: #8e8e8e;
   text-transform: uppercase;
   font-size: 12px;
-`;
-
-export const Footer = styled.footer`
-  padding: 0 16px 16px 16px;
 `;
 
 export const Profile = styled.div`
@@ -96,4 +94,8 @@ export const Content = styled.div`
 
 export const Icons = styled.div`
   display: flex;
+`;
+
+export const Footer = styled.footer`
+  padding: 0 16px 16px 16px;
 `;

@@ -7,7 +7,7 @@ function Feed() {
   return (
     <Styled.Container>
       <Post
-        profile={{ name: "gato-persa", picture: cat01 }}
+        profile={{ name: "gato.persa", picture: cat01 }}
         post={cat01}
         description="Se Alongando ao ar livre"
         pastTime="12 dias atrás"
