@@ -1,14 +1,13 @@
 import Title from "../../components/dumbs/Title";
 import Text from "../../components/dumbs/Text";
 import Link from "../../components/dumbs/Link";
-import Header from "../../components/smart/Header";
 import Footer from "../../components/dumbs/Footer";
 import SearchInput from "../../components/smart/SearchInput";
 
 function Error() {
   return (
     <>
-      <Header />
+      
       <Title>Esta página não está disponível.</Title>
       <Text>
         O link que você acessou pode estar quebrado ou a página pode ter sido
